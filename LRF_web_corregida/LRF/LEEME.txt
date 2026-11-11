@@ -1,0 +1,20 @@
+LRF - Sitio web corregido
+
+ARCHIVO PRINCIPAL: index.html
+
+Se corrigieron:
+- Enlaces internos que apuntaban a rutas locales de Windows (file:///C:/...).
+- Navegación entre Inicio, catálogos y Contacto.
+- Rutas de imágenes y hoja de estilos.
+- Nombres de archivos HTML para que sean compatibles con publicación web.
+- Enlace al inicio de sesión y su ancla.
+- Referencia al archivo script.js que faltaba.
+
+IMPORTANTE PARA CREAR EL QR:
+El QR debe contener una dirección pública (URL) del sitio, no una ruta de tu computadora.
+1. Subí el contenido de esta carpeta a un hosting estático (por ejemplo, GitHub Pages o Netlify).
+2. Verificá que la página principal abra desde la URL pública.
+3. Usá esa URL pública para generar el código QR.
+
+NOTA:
+El inicio de sesión queda como demostración visual. No autentica usuarios ni guarda contraseñas; para eso hace falta conectar un backend seguro.
